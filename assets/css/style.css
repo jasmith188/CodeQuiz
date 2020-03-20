@@ -2,16 +2,42 @@ body{
     background-color: lightgrey;
 }
 .container {
+    margin: 0 auto;
     width: 500px;
     height: 500px;
-    margin: 0 auto;
+    border: 2px solid black;
     background-color: white;
+    border: 50px;
+    
+    
 }
-.h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.container h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     text-align: center;
-    padding: 2px 0px;
-    border-radius: 50px;
-     
+    border: 50px;
+    background-color: blue;
+    color: white;
 }
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: gray;
+    font-size: 20px;
+    width: 200px;
+    padding: 20px 20px;
+    margin: 10px 30px 20px 0px;
+    border: 25px;
+    width: 200px;
+    border: 50px;
+    
+}
+.buttons {
+    margin-top: 35px;
+
+}
+.container #question {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: red
+}
+
+
