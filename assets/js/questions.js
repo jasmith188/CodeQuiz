@@ -1,11 +1,11 @@
 var questions = [
     {
-        title: "Which NBA player is the All-Time leader in points scored?:",
+        question: "Which NBA player is the All-Time leader in points scored?:",
         choices: ["Kobe Bryant", "Karl Malone", "Kareem Abdul-Jabbar", "Michael Jordan"],
         answer: "Kareem Abdul-Jabbar"
     },
     {
-        title: "Which NBA Head Coach has one the most titles at 11?:",
+        question: "Which NBA Head Coach has one the most titles at 11?:",
         choices: ["Pat Riley", "Red Auerbach", "Greg Papovich", "Phil Jackson"],
         answer: "Phil Jackson"
     },
