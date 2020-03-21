@@ -1,4 +1,4 @@
-questions = [
+var questions = [
     {
         title: "Which NBA player is the All-Time leader in points scored?:",
         choices: ["Kobe Bryant", "Karl Malone", "Kareem Abdul-Jabbar", "Michael Jordan"],

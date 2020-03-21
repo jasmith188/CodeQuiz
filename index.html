@@ -4,30 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>e
+    <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="container">
-        <div id="quiz">
-            <h1>Quiz</h1>
-
-            <p id="question"></p>
-
-            <div class="buttons">
-                <button id="btn0"><span id="choice0"></span></button>
-                <button id="btn1"><span id="choice1"></span></button>
-                <button id="btn2"><span id="choice2"></span></button>
-                <button id="btn3"><span id="choice3"></span></button>
+        <div id="question-container">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class ="btn-grid">
+                <button id="btn">Answer 1</button>
+                <button id="btn">Answer 1</button>
+                <button id="btn">Answer 1</button>
+                <button id="btn">Answer 1</button>
+                
             </div>
-        </div>
-
-
-
-
-
-    </div>
+        </div> 
+        <button id="start-btn" class="start-btn btn">Start</button>
+</div>
+<script> src="assets/js/functions.js"</script>
+<script src="assets/js/questions.js"></script>
 </body>
 
 </html>
