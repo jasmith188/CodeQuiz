@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div id="nav">
-        <!-- view scores link on the top left of nav bar-->
-        <div class="left">
-            <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
+    <header>
+        <div> class = "container"
+            <h1>QUIZ!!!!!!</h1>
+            <br>
         </div>
-        <!-- countdown timer on the top right of nav bar-->
-        <div class="left">
-            <h4>Time: <span id="myTimer">60 seconds</span></h4>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="timer">Timer:</h2>
+
+            </div>
         </div>
     </div>
-    <div class="container">
-        <div id="question-container">
-            <div id="question">Question</div>
-            <div id="answer-buttons" class ="btn-grid">
-                <button id="btn">Answer 1</button>
-                <button id="btn">Answer 1</button>
-                <button id="btn">Answer 1</button>
-                <button id="btn">Answer 1</button>
-                
-            </div>
-        </div> 
+
 
     <button id="start-btn" onclick="myTimer()" class="start-btn btn">Start</button>
     <script src="assets/js/functions.js"></script>
 </body>
+
 </html>
