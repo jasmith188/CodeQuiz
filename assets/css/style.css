@@ -7,12 +7,25 @@
     color: black;
 }
 
-.container-fluid {
-    width: 100%;
+.body {
+    background-color: sandybrown;
 }
 .container {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
 }
-
+.card-body {
+    background-color: lightgray;
+}
+.card-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-primary {
+    background-color: red;
+}
