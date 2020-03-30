@@ -1,3 +1,10 @@
+var quiz = {
+    time: 60,
+    questionI: 0,
+    scoreCorrect: 0,
+     
+  }
+  
 var questions = [
     {
         question: "Which NBA player is the All-Time leader in points scored?:",

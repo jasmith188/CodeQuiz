@@ -1,42 +1,18 @@
-body{
-    background-color: darkblue;
-    display: flex;
-    justify-content: center;
+.startButton {
+    color: red;
+    font-size: 40px;
+    
+}
+.a {
+    color: black;
+}
+
+.container-fluid {
+    width: 100%;
 }
 .container {
-    width: 800px;
-    max-width: 80%;
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-
-
-}
-.btn-grid {
-    margin: 20px 0;
-    gap: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    
-} 
-.start-btn {
-    background-color: gray;
-    font-size: 20px;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 25px;
+    font-size: 24px;
 }
-.btn {
-    background-color: coral;
-
-}
-
-.container #question {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    color: black;
-    font-weight: bold;
-    display: auto;
-    
-}
-
 
