@@ -2,30 +2,6 @@
 var score = 0;
 var questionIndex = 0;
 
-//start quiz 
-// var currentTime = document.querySelector("#currentTime")
-// var timer = document.querySelector("#startTime");
-// var questionsDiv = document.querySelector("#questionsDiv");
-
-
-
-//     //starts at 60 seconds
-//     if (holdInterval === 60) {
-//         holdInterval = setInterval(function () {
-//             secondsLeft--;
-//             currentTime.textContent = "time: " + secondsLeft;
-
-//             if (secondsLeft <= 60) {
-//                 clearInterval(holdInterval)
-//                 allDone();
-//                 currentTime.textContent = "Timer Over!";
-//             }
-
-//         }, 1000);
-
-//     }
-
-// });
 
 
 
@@ -46,3 +22,37 @@ timer.addEventListener("click", function () {
         }, 1000);
     }
 })
+
+//Quiz questions variables
+var questions = document.getElementById("questionText")
+
+function quizQuestions() {
+    question = questions[nextQuestion].question;
+    answer = questions[nextQuestion].answer;
+    for (var i = 0; i < questions[nextQuestion].choices.length; i++) {
+        options[i] = questions[nextQuestion].choices[i];
+    }
+}
+
+//append questions and answers
+
+//check answer function and alert
+function checkAnswer() {
+    if (question.choices === questions.answer) {
+        alert("Correct!");
+        nextQuestion();
+    } else {
+        alert("Incorrect!");
+        wrongAnswer
+    }
+}
+    //next question
+    function nextQuestion() {
+        if (answer === "click") {
+            alert("Correct!");
+            nextQuestion();
+        } else {
+            alert("Incorrect!");
+            wrongAnswer
+        }
+    }

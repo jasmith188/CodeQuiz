@@ -1,6 +1,6 @@
 var quiz = {
     time: 60,
-    questionI: 0,
+    question: 0,
     scoreCorrect: 0,
      
   }
